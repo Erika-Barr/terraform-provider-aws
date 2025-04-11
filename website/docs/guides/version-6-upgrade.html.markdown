@@ -19,6 +19,7 @@ Upgrade topics:
 - [Dropping Support For Amazon SimpleDB](#dropping-support-for-amazon-simpledb)
 - [Dropping Support For Amazon Worklink](#dropping-support-for-amazon-worklink)
 - [AWS OpsWorks Stacks End of Life](#aws-opsworks-stacks-end-of-life)
+- [AWS Evidently Deprecation](#aws-evidently-deprecation)
 - [data-source/aws_ami](#data-sourceaws_ami)
 - [data-source/aws_batch_compute_environment](#data-sourceaws_batch_compute_environment)
 - [data-source/aws_globalaccelerator_accelerator](#data-sourceaws_globalaccelerator_accelerator)
@@ -116,6 +117,10 @@ As the AWS OpsWorks Stacks service has reached [End Of Life](https://docs.aws.am
 * `aws_opsworks_stack`
 * `aws_opsworks_static_web_layer`
 * `aws_opsworks_user_profile`
+
+## AWS Evidently Deprecation
+
+This service has been deprecated and will be removed in a future version. [Effective October 17, 2025](https://aws.amazon.com/blogs/mt/support-for-amazon-cloudwatch-evidently-ending-soon/), AWS will no longer support Cloudwatch Evidently. Use the [AWS AppConfig](https://aws.amazon.com/blogs/mt/using-aws-appconfig-feature-flags/) a feature of AWS Systems Manager instead.
 
 ## data-source/aws_ami
 
