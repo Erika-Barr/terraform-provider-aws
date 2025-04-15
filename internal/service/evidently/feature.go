@@ -38,7 +38,7 @@ func ResourceFeature() *schema.Resource {
 		UpdateWithoutTimeout: resourceFeatureUpdate,
 		DeleteWithoutTimeout: resourceFeatureDelete,
 
-		DeprecationMessage: "This resource is deprecated",
+		DeprecationMessage: "This resource is deprecated. Please use AppConfig instead.",
 
 		Importer: &schema.ResourceImporter{
 			StateContext: schema.ImportStatePassthroughContext,

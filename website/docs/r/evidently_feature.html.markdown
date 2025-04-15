@@ -10,7 +10,7 @@ description: |-
 
 Provides a CloudWatch Evidently Feature resource.
 
-**Warning:** This resource is deprecated.
+~> **Warning:** This resource is deprecated. Please use AppConfig instead.
 
 ## Example Usage
 
